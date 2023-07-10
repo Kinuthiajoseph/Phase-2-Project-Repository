@@ -1,7 +1,12 @@
-![image.png](attachment:image.png)
 # Phase-2-Project-Readme: House Sales in King County, USA
 
 Author: Joseph Kinuthia Githinji
+
+Student pace: Full Time
+
+Scheduled project review date/time: 1 Week
+
+Instructor name: Anthony Muiko / Mark Tiba
 
 ## Overview
 

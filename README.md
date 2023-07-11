@@ -90,15 +90,15 @@ The coefficients indicate the expected change in price for each unit increase in
 *Model 3:
 
 R-squared: 0.606
-This model includes multiple predictor variables, such as "sqft_living", "sqft_above", "bedrooms", "bathrooms", "waterfront", "floors", "grade_11 Excellent", "grade_10 Very Good", "grade_7 Average", and "grade_13 Mansion".
-The model explains approximately 60.6% of the variance in the target variable.
+This model includes multiple predictor variables, such as sqft_living, sqft_above, bedrooms, waterfront_YES, floors, grade_11 Excellent, grade_10 Very Good, grade_7 Average, grade_13 Mansion and grade_12 Luxury.
+The model explains approximately 61.8% of the variance in the target variable.
 The coefficients represent the expected change in price for each unit increase in the respective predictor variable, considering the effects of other variables in the model.
 
 Based on the R-squared values, Model 3 has the highest level of explained variance compared to the other models. This suggests that Model 3 performs better in capturing the variation in the target variable, "price". However, it is important to note that there might be other factors or variables that could further improve the model's performance.
 
 *Comparison of the models:
 
-The R-squared value increases from the first model (0.493) to the second model (0.501) and further to the third model (0.606). This indicates that each subsequent model explains a higher percentage of the variance in house prices, suggesting improved model performance.
+The R-squared value increases from the first model (0.493) to the second model (0.501) and further to the third model (0.618). This indicates that each subsequent model explains a higher percentage of the variance in house prices, suggesting improved model performance.
 
 The inclusion of additional variables in the second and third models allows for a more comprehensive understanding of the factors influencing house prices. While the first model solely relies on 'sqft_living', the third model expands further by incorporating many variables.
 
@@ -109,9 +109,9 @@ Overall, the third model demonstrates the highest R-squared value and includes a
 ***
 Based on the analysis conducted, the following conclusions can be drawn:
 
-Predictor Variables: The p-values associated with the coefficients in Model 3 indicate that 'sqft_living', 'sqft_above', 'bathrooms', 'waterfront_YES', 'floors','grade_11 Excellent', 'grade_10 Very Good', 'grade_7 Average', 'grade_13 Mansion', 'grade_12 Luxury' have a significant impact on housing prices (p-values < 0.05). This suggests that these predictors are important factors to consider when predicting housing prices.
+Predictor Variables: The p-values associated with the coefficients in Model 3 indicate that '(sqft_living, sqft_above, bedrooms, waterfront_YES, floors, grade_11 Excellent, grade_10 Very Good, grade_7 Average, grade_13 Mansion and grade_12 Luxury) have a significant impact on housing prices (p-values < 0.05). This suggests that these predictors are important factors to consider when predicting housing prices.
 
-Model Performance: The R-squared values of the models indicate that they explain a significant portion of the variance in house prices. The third model, which includes a combination of numerical and categorical variables, performs the best with an R-squared of 0.606. This suggests that the model can capture approximately 60.6% of the variability in house prices.
+Model Performance: The R-squared values of the models indicate that they explain a significant portion of the variance in house prices. The third model, which includes a combination of numerical and categorical variables, performs the best with an R-squared of 0.618. This suggests that the model can capture approximately 60.6% of the variability in house prices.
 ***
 
 ## Recommendations

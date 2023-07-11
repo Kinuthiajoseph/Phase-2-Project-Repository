@@ -6,7 +6,7 @@ Student pace: Full Time
 
 Scheduled project review date/time: 1 Week
 
-Instructor name: Anthony Muiko / Mark Tiba
+Instructor name: Anthony Muiko / Winnie Anyoso
 
 ## Overview
 
